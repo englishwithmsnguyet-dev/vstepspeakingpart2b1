@@ -670,9 +670,7 @@ function initAuth() {
         "Cao Thị Thu Trang", "Nguyễn Thị Thanh Tuyền", "Trần Phạm Phương Uyên", "Trần Ngô Mỹ Vy"
     ];
 
-    const validStudentsB2 = [
-        "Gia Tuệ"
-    ];
+    const validStudentsB2 = [];
 
     const CLASS_ROSTERS = {
         'CB210': validStudentsCB210,
@@ -680,7 +678,7 @@ function initAuth() {
         'CB213': validStudentsCB213,
         'CB219': validStudentsCB219,
         'ONB103': validStudentsONB103,
-        'B2': validStudentsB2
+        
     };
 
     const normalizeStr = (str) => {
